@@ -144,8 +144,9 @@ body {
 }
 
 .error__button--active {
-    background-color: #e67e22;
-    border: 2px solid #e67e22;
+    background-color: red; 
+    /* here */
+    border: 2px solid red;
     color: white;
 }
 
@@ -308,7 +309,7 @@ body {
 }
 
 .astronaut__wrist-left {
-    background-color: #e67e22;
+    background-color: red;
     position: absolute;
     top: 122px;
     left: 6.5px;
@@ -320,7 +321,7 @@ body {
 }
 
 .astronaut__wrist-right {
-    background-color: #e67e22;
+    background-color: red;
     position: absolute;
     top: 98px;
     left: 141px;
@@ -365,7 +366,7 @@ body {
     border-radius: 3px;
     border-top-left-radius: 8em;
     border-top-right-radius: 8em;
-    border-bottom: 4px solid #e67e22;
+    border-bottom: 4px solid red;
 }
 
 .astronaut__foot-right {
@@ -380,5 +381,5 @@ body {
     border-radius: 3px;
     border-top-left-radius: 8em;
     border-top-right-radius: 8em;
-    border-bottom: 4px solid #e67e22;
+    border-bottom: 4px solid red;
 }
