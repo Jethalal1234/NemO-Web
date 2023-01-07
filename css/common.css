@@ -287,4 +287,68 @@ body {
 	.footer li {
 		margin: 5px 0;
 	}
+
+	/* Showcase */
+.showcase {
+	height: 700px;
+	position: relative;
+}
+
+.showcase h1 {
+	font-size: 40px;
+	position: center;
+	text-align: center;
+}
+
+.showcase p {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.showcase .flex {
+	overflow: visible;
+	justify-content: center;
+}
+
+/* Panels */
+.features {
+	height: auto 500px;
+	margin: 50px 0;
+}
+
+.features h3 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.features p {
+	text-align: center;
+}
+
+.features img {
+	border-radius: 5px;
+	justify-self: center;
+	width: 75%;
+}
+
+.mobile {
+	display: none;
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+	.features img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 450px) {
+	.navbar{
+		display: none;
+	}
+	.footer{
+		 margin-top: 15px;
+	}
+}
 }
