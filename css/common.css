@@ -322,6 +322,14 @@ body {
 		margin: 5px 0;
 	}
 
+	#stats[data-v-74477944] {
+		display: flex;
+		grid-gap: 25px;
+		padding: 35px 10%;
+		margin: 0 auto;
+		max-width: 1000px;
+	}
+
 	/* Showcase */
 .showcase {
 	height: auto;
@@ -380,6 +388,12 @@ body {
 
 @media (max-width: 450px) {
 	.navbar{
+		display: flex;
+		margin: 0;
+		padding: 1.3rem;
+		justify-content: flex-end;
+	}
+	.navbar .nav .ui{
 		display: none;
 	}
 	.footer{
@@ -388,3 +402,16 @@ body {
 }
 }
 
+@media screen and (max-width: 600px) {
+#stats[data-v-74477944] {
+    flex-direction: column;
+    padding: 25px 10%;
+    align-items: center;
+}
+.footer{
+	display: none;
+}
+.showcase .p{
+	display: none;
+}
+}
