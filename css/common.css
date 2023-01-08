@@ -409,9 +409,18 @@ body {
     align-items: center;
 }
 .footer{
-	display: none;
+	display: flex;
+	margin-top: 15%;
 }
 .showcase .p{
 	display: none;
 }
+.widget {
+	display: none;
+}
+}
+.widget {
+	margin: 10px 0;
+	text-align: center;
+	margin-bottom: 15%
 }
